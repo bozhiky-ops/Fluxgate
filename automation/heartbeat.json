@@ -1,0 +1,29 @@
+{
+  "serviceName": "Fluxgate Core",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "uptimeSeconds": 3600,
+  "apiVersion": "v1.2.3",
+  "status": "healthy",
+  "cpuLoad": 0.15,
+  "memoryUsageBytes": 104857600,
+  "diskSpaceAvailableBytes": 53687091200,
+  "activeConnections": 12,
+  "messageQueueSize": 5,
+  "lastDeployment": "2024-10-26T18:00:00Z",
+  "buildVersion": "1.0.0-rc1",
+  "environment": "production",
+  "dependencies": {
+    "database": {
+      "status": "connected",
+      "responseTimeMs": 2
+    },
+    "cache": {
+      "status": "healthy",
+      "hitRate": 0.95
+    }
+  },
+  "customMetrics": {
+    "requestsPerSecond": 25.5,
+    "errorsPerMinute": 0.2
+  }
+}
